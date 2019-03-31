@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="jsonToBookmark.css"/>
+  </head>
+
+<body>
+  <div style='display: none;' id='output'>
+      <!-- Element for Result Ouput -->
+  </div>
+
+  <select id="select-folders">
+  </select>
+
+
+  <div id="popup-content">
+    <textarea id='bookmark-data'>
+{
+  "folder": "New Bookmarks Folder",
+  "bookmarks": [{
+      "title": "Mozilla Home",
+      "url": "https://www.mozilla.org/"
+    },
+    {
+      "title": "MDN Home",
+      "url": "https://developer.mozilla.org"
+    }]
+}</textarea> 
+  </div>
+
+  <button type="button" id='save'>Save</button>
+  
+  <script src="jsonToBookmark.js"></script>
+</body>
+
+</html>

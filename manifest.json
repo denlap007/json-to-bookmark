@@ -1,0 +1,25 @@
+{
+
+    "manifest_version": 2,
+    "name": "json-to-bookmark",
+    "version": "1.0",
+  
+    "description": "Create bookmarks from json",
+  
+    "icons": {
+      "48": "icons/bookmark.svg",
+      "96": "icons/bookmark.svg"
+    },
+     
+    "permissions": [
+        "bookmarks",
+        "activeTab"
+      ],
+
+    "browser_action": {
+        "default_icon": "icons/bookmark.svg",
+        "default_title": "Add Bookmarks from json",
+        "default_popup": "popup/jsonToBookmark.html"
+    }
+  
+  }
